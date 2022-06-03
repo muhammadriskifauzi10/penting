@@ -1,0 +1,17 @@
+Git adalah tools version control system yang digunakan untuk merekam / snapshot segala yang terjadi pada repository
+yang kemudian dijadikan riwayat / commit untuk mempermudahkan memanggil riwayat sebelumnya jika diperlukan...
+
+Perintah untuk membuat project folder git => "git init"
+Perintah untuk melihat semua status yang terjadi dalam folder git / working directory => "git status"
+Perintah untuk memasukkan file ke staging area => "git add namafile"
+Perintah untuk me-restore file yang berada di dalam staging area kembali pada working directory 
+								=> "git rm --cached namafile"
+Perintah untuk menyimpan file ke dalam repository selamanya => "git commit -m "Pesan anda" "
+Perintah untuk menampilkan riwayat repository berdasarkan commit, author dan date
+								=> "git log"
+Perintah untuk menampilkan riwayat repository berdasarkan commit
+								=> "git log --oneline"
+Perintah untuk menampilkan riwayat repository berdasarkan commit dan tanda (branch/cabang)
+								=> "git log --oneline graph"
+
+=> Important quit fast-forwarding for git : esc + : + w + q + !

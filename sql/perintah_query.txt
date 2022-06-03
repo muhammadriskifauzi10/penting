@@ -1,0 +1,30 @@
+"SELECT * FROM namatabel;" => Perintah untuk menampilkan semua daftar isi kolom
+"SELECT namakolom1, namakolom2 from namatabel;" => Perintah untuk menampilkan data kolom tertentu di dalam tabel
+"INSERT INTO namatabel (namakolom) VALUES (nilai);" => Perintah untuk memasukkan data kedalam tabel
+"INSERT INTO namatabel (namakolom) VALUES (nilai), (nilai), (nilai);" 
+							=> Perintah untuk memasukkan multi data kedalam tabel
+"UPDATE namatabel SET namakolom = 'des 3' WHERE id = 1;" => Perintah untuk update data di dalam tabel
+"UPDATE namatabel SET namakolom1 = 'nilai', namakolom2 = 'nilai' where id = 1;"
+							=> Perintah untuk update multi data di dalam tabel
+"DELETE FROM namatabel WHERE id = 1;" => Perintah untuk menghapus data dalam tabel
+"TRUNCATE namatabel;" => Perintah untuk menghapus semua data tanpa menghapus tabelnya
+"DROP table namatabel;" => Perintah untuk menghapus tabel
+"SELECT * FROM namatabel WHERE namakolom = 'nilai';" Perintah untuk mengambil data berdasarkan kolom tertentu
+"select namakolom as namakolomganti from namatabel; => Perintah untuk meng-aliaskan namakolom
+"select a.namakolom as namakolomganti from namatabel as a;" Perintah untuk meng-aliaskan namatabel
+
+--- Operator perbandingan ---
+=, <, >, (!=, <>), =>, <=
+--- Operator perbandingan like ---
+'%a(Akhirannya a)', 'b%(Awalannya b)', '%c%', 'NOT LIKE'
+
+"select * from namatabel where namakolom LIKE '%a%';" => Perintah untuk mencari data
+"select * from namatabel where namakolom is null;" => Perintah untuk mencari data pada kolom yang berisi null
+"select * from namatabel where namakolom is not null;" 
+								=> Perintah untuk mencari data pada kolom yang tidak berisi null
+"select * from namatabel where namakolom between 2000 and 4000;" => Perintah untuk mencari data antara nilai 1
+												sampai nilai 2 
+"select * from namatabel where namakolom not between 2000 and 4000;" => Perintah untuk mencari data tidak diantara
+												nilai 1 dan nilai 2
+"select * from namatabel where namakolom in ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai
+"select * from namatabel where namakolom not in ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai

@@ -1,0 +1,29 @@
+Mysql adalah aplikasi/software yang digunakan untuk mengolah data/manage data dalam database...
+
+Perintah-perintah sql(Structure query languange)
+
+Perintah masuk ke database => "mysql -u root -p"
+Perintah melihat daftar list nama-nama database => "show databases;"
+Perintah membuat database di dalam software mysql => "create database namadatabase;"
+Perintah menghapus database di dalam software mysql => "drop database namadatabase;"
+Perintah memilih dan masuk ke dalam database => "use namadatabase;"
+Perintah untuk melihat daftar list tabel di dalam database => "show tables;"
+Perintah untuk membuat tabel di dalam database => "create table namatabel(
+									c1 INT UNSIGNED, 
+									c2 VARCHAR(200),
+									c3 INT not null default 0,
+									c4 timestamp not null default current_timestamp.
+									primary key (namakolom)
+									) engine = innodb;"
+Perintah untuk melihat struktur tipe data kolom dalam tabel = "show create table namatabel;"
+Perintah untuk menghapus tabel di dalam database => "drop table namatabel;"
+Perintah untuk menampilkan struktur kolom di dalam tabel => "desc/describe namatabel;"
+Perintah untuk menambahkan kolom baru di dalam tabel => "alter table namatabel add column 
+										namakolom INT NOT NULL DEFAULT 0;"
+Perintah untuk menghapus kolom di dalam tabel => "alter table namatabel drop column namakolom;" 
+Perintah untuk menambahkan kolom baru di dalam tabel berdasarkan posisi kolom
+									=> "alter table namatabel add column namakolom INT 
+										NOT NULL DEFAULT 0 first/after harga;"
+"alter table namatabel add primary key (namakolom);" => Perintah untuk menambahkan primary key pada kolom
+Perintah untuk memodifikasi kolom di dalam tabel => "alter table namatabel modify namakolom INT 
+										NOT NULL DEFAULT 0 first/after namakolom;"
