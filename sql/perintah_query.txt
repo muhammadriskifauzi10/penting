@@ -10,21 +10,29 @@
 "TRUNCATE namatabel;" => Perintah untuk menghapus semua data tanpa menghapus tabelnya
 "DROP table namatabel;" => Perintah untuk menghapus tabel
 "SELECT * FROM namatabel WHERE namakolom = 'nilai';" Perintah untuk mengambil data berdasarkan kolom tertentu
-"select namakolom as namakolomganti from namatabel; => Perintah untuk meng-aliaskan namakolom
-"select a.namakolom as namakolomganti from namatabel as a;" Perintah untuk meng-aliaskan namatabel
+"SELECT namakolom AS namakolomganti FROM namatabel; => Perintah untuk meng-aliaskan namakolom
+"SELECT a.namakolom AS namakolomganti FROM namatabel AS a;" Perintah untuk meng-aliaskan namatabel
 
 --- Operator perbandingan ---
 =, <, >, (!=, <>), =>, <=
 --- Operator perbandingan like ---
 '%a(Akhirannya a)', 'b%(Awalannya b)', '%c%', 'NOT LIKE'
 
-"select * from namatabel where namakolom LIKE '%a%';" => Perintah untuk mencari data
-"select * from namatabel where namakolom is null;" => Perintah untuk mencari data pada kolom yang berisi null
-"select * from namatabel where namakolom is not null;" 
+"SELECT * FROM namatabel WHERE namakolom LIKE '%a%';" => Perintah untuk mencari data
+"SELECT * FROM namatabel WHERE namakolom IS NULL;" => Perintah untuk mencari data pada kolom yang berisi null
+"SELECT * FROM namatabel WHERE namakolom IS NOT NULL;" 
 								=> Perintah untuk mencari data pada kolom yang tidak berisi null
-"select * from namatabel where namakolom between 2000 and 4000;" => Perintah untuk mencari data antara nilai 1
+"SELECT * FROM namatabel WHERE namakolom BETWEEN 2000 AND 4000;" => Perintah untuk mencari data antara nilai 1
 												sampai nilai 2 
-"select * from namatabel where namakolom not between 2000 and 4000;" => Perintah untuk mencari data tidak diantara
+"SELECT * FROM namatabel WHERE namakolom NOT BETWEEN 2000 AND 4000;" => Perintah untuk mencari data tidak diantara
 												nilai 1 dan nilai 2
-"select * from namatabel where namakolom in ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai
-"select * from namatabel where namakolom not in ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai
+"SELECT * FROM namatabel WHERE namakolom IN ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai
+"SELECT * FROM namatabel WHERE namakolom NOT IN ('n1','n2');" => Perintah untuk mengambil data berdasarkan nilai
+"SELECT * FROM namatabel ORDER BY namakolom ASC/DESC;" => Perintah untuk mengurutkan data dari urutan nilai yang terbesar
+									dan terkecil
+"SELECT * FROM namatabel ORDER BY namakolom DESC LIMIT 2;" => Perintah untuk mengambil jumlah data
+"SELECT * FROM namatabel ORDER BY namakolom DESC LIMIT skip, limit;" => Perintah untuk mengambil jumlah data 
+											berdasarkan skip urut data
+"SELECT DISTINCT namakolom FROM namatabel;" => Perintah untuk mengambil data yang duplicat
+"SELECT LAST_INSERT_ID();" perintah untuk menampilkan urutan masukan data 1 yang baru saja di query
+
