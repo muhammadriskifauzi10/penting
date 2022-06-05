@@ -1,0 +1,6 @@
+Biasanya, ketika belajar memulai untuk membangun sebuah website itu adalah belajar HTML dlu. Nah
+apa itu HTML? HTML itu merupakan singkatan dari HYPERTEXT MARKUP LANGUANGE sebuah bahasa markup dengan serangkaian2
+tag yang fungsinya itu membuat halaman website/ halaman browser. Sebagian programmer bilang, HTML itu ibaratnya
+tulang-tulang manusia atau kerangka2 bagian suatu benda dan coba kamu bayangin aja deh misalnya kalo manusia itu tidak 
+memiliki tulang-tulang jadinya seperti apa? Nah, Itu lebih detailnya jika kamu ingin mengetahui 
+lebih detail tentang HTML. Silahkan coba kamu kunjungi link yang sudah saya cantumkan pada link deskripi IG ini 
