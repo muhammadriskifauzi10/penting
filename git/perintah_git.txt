@@ -13,5 +13,21 @@ Perintah untuk menampilkan riwayat repository berdasarkan commit
 								=> "git log --oneline"
 Perintah untuk menampilkan riwayat repository berdasarkan commit dan tanda (branch/cabang)
 								=> "git log --oneline graph"
+"git branch" => Perintah untuk melihat daftar list cabang
+"git branch namacabang" => Perintah untuk membuat cabang baru
+"git checkout namacabang" => Perintah untuk memilih cabang
+"git merge namacabang" => Perintah untuk menggabungkan cabang pada saat cabang berada dalam cabang master
+"git branch -d namacabang" => Perintah untuk menghapus namacabang
+"git revert hash" => Perintah untuk membuat commit lama menjadi commit terbaru
+"git reset hash" => Perintah untuk mereset commit yang berada diatas hash commit reset
+"git commit --amend -m "Message" " => Perintah untuk mengganti pesan commit terbaru
 
-=> Important quit fast-forwarding for git : esc + : + w + q + !
+== Note ==
+Ada saatnya anda mendapatkan "merge conflict" pada saat membuat cabang masalah itu terjadi biasanya ketika anda
+membuat 2 cabang lalu di dalamnya terdapat 2 nama file yang sama. Kemungkinan itu akan terjadi masalah pada 
+cabang master ketika anda ingin me- "merge" nya tapi tenang aja permasalahan ini tak cukup sulit untuk
+mengatasinya anda hanya tinggal memilih cabang mana yang cocok untuk file anda kedepannya.
+== Note ==
+
+=> Important 1 : quit fast-forwarding for git -> esc + : + w + q + !
+=> Important 2 : quit -> q
